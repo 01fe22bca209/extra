@@ -15,6 +15,17 @@ public class Operation {
         int product = num1 * num2;
         System.out.println("Product: " + product);
 
+        if (num2 != 0) {
+            double quotient = (double) num1 / num2;
+            System.out.println("Quotient: " + quotient);
+        } else {
+            System.out.println("Cannot divide by zero.");
+        }
+
+        // Modulus
+        int remainder = num1 % num2;
+        System.out.println("Remainder: " + remainder);
+
         
     }
 }
